@@ -1,7 +1,7 @@
 var toDoList = angular.module('toDoList',[]);
 
 toDoList.controller('toDoListController', function($scope){
-  $scope.view = 0
+  $scope.view = 0;
   $scope.toDos = [];
   $scope.tasks = 0;
   $scope.id = -1;
