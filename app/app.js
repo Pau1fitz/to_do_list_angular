@@ -17,7 +17,7 @@ toDoList.controller('toDoListController', function($scope){
   $scope.clearOne = function(index){
     if($scope.tasks > 0){
     $scope.tasks -= 1;
-    $scope.toDos[index].done = true
+    $scope.toDos[index].done = true;
     }else{
       return false
     }
